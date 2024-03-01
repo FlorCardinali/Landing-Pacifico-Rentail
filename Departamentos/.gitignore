@@ -8,10 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+./imagenes
 dist
 dist-ssr
 *.local
-imagenes
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
