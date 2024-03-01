@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  --back-color: 220, 220, 209;
+  --font-color: 77, 56, 33;
+  --green: 54, 86, 17;
+  --details: 132, 132, 128;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#d2cab2;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img {
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background */
+    background-image: url("/hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center ;
+    filter: blur(2px);
+}
+
+.container {
+    padding: 5%;
+    min-width: 40vw;
+    max-width: 70vw;
+    position: absolute; 
+    text-align: center;
+    background-color: rgba(var(--back-color), 0.1);
+    backdrop-filter: blur(10px);
+         
+}
+.h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    font-style: italic;
+    background: linear-gradient(rgb(var(--details)),rgb(var(--green)));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.subtitle {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--details);
+}
+
+
