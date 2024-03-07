@@ -5,6 +5,7 @@
 .container {
     min-width: 100vw;
     position: fixed;
+    animation: all 2.5s;
     @apply flex justify-between p-2 z-50;
 }
 .link {
@@ -24,9 +25,9 @@
 .contNav {
     justify-content: flex-end;
     align-items: center;
-    height: 40px;
+    height: 30px;
     gap: 2rem;
-    @apply px-10 text-light basis-1 font-bold text-xl grow lg:flex hidden relative;
+    @apply px-10 text-light basis-1 font-semibold text-lg grow lg:flex hidden relative;
 }
 
 .openNav {
@@ -45,4 +46,8 @@
 
 .close {
     @apply lg:hidden flex px-8 self-center text-light;
+}
+
+.navbarScrolled {
+    @apply bg-gray-800/40 backdrop-blur-sm;
 }

@@ -1,5 +1,5 @@
 import css from "../navbar/Navbar.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -8,8 +8,28 @@ const Navbar = () => {
         console.log(open);
     }
 
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        if (scrollPosition > 50) {
+          setIsScrolled(true);
+        } else {
+          setIsScrolled(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      // Cleanup
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
+
     return ( 
-        <div className={css.container}>
+        <div className={`${css.container} ${isScrolled ? css.navbarScrolled : "" }`}>
             {/* marca */}
             <div className={css.marca}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-house-door" viewBox="0 0 16 16">
