@@ -10,7 +10,7 @@ const Hero = () => {
         <div className={styles.textContainer}>
             <div className={styles.h1Container}>
                 <div>
-                    <h1 className={styles.h1}>Alquiler</h1>
+                    <h1 className={styles.h1}>Alquiler </h1>
                     <h1  className={`${styles.h1} ${styles.moverH1}`}>por dia</h1>
                 </div>
                 <p className={styles.subtitle}>Bahia Blanca, Buenos Aires.</p>         
