@@ -7,28 +7,28 @@
     @apply w-screen h-screen flex items-center justify-center;
 } 
 .img {
-    @apply bg-[url('hero.webp')] bg-cover bg-center absolute w-screen h-screen after:content-[''] after:w-screen after:h-screen after:absolute after:bg-neutral-800/30 -z-10 after:-z-10;
+    @apply bg-[url('hero.webp')] bg-cover md:bg-center bg-[-6rem] absolute w-screen h-screen after:content-[''] after:w-screen after:h-screen after:absolute after:bg-neutral-800/40 -z-10 after:-z-10;
 }
 
 .textContainer {
-    @apply w-4/5 flex flex-col gap-12 items-start justify-center;
+    @apply md:w-4/5 flex h-screen md:h-auto flex-col gap-8 items-start justify-center  ;
 }
 .h1 {
-    @apply font-[Oswald] text-9xl  font-bold text-gray-300 drop-shadow-lg;
+    @apply font-[Oswald] text-8xl md:text-9xl  font-bold text-gray-300 drop-shadow-lg;
 }
 .subtitle {
-    @apply text-backColor font-bold text-2xl drop-shadow-lg;
+    @apply text-backColor font-bold text-2xl drop-shadow-lg p-5;
 }
 
 .buttonsContainer {
-    @apply flex gap-10
-}
+    @apply flex -translate-y-8 md:-translate-y-0 gap-10
+} 
 
 .res {
-    @apply w-40 h-16 bg-details text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl
+    @apply w-40 h-16 bg-detailsDark text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl hover:bg-details hover:scale-110 cursor-pointer
 }
 .conoce {
-    @apply text-light flex items-start justify-center
+    @apply text-light flex items-center justify-center hover:scale-110 hover:text-white
 }
 
  

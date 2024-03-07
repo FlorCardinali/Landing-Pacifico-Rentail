@@ -11,6 +11,7 @@ export default {
         fontColor: "#4D3821",
         myGreen: "#97a82a",
         details: "#74634c",
+        detailsDark: "#5c513a",
         light: "#ddddd2",
         shadow: "#39311d"
       }    

@@ -17,7 +17,7 @@ const Hero = () => {
                 <a className={styles.res}>
                     RESERVAS
                 </a>
-                <a className={styles.conoce} href="">Conoce mas</a>
+                <a className={styles.conoce} href="">Conoce mas -{'>'} </a>
             </div>
         </div>
     </section> 
