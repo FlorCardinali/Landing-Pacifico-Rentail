@@ -11,17 +11,22 @@
 }
 
 .textContainer {
-    @apply md:w-4/5 flex h-screen md:h-auto flex-col gap-8 items-start justify-center  ;
+    @apply md:w-4/5 flex h-screen md:h-auto flex-col md:gap-8 gap-20 items-center md:items-start justify-center text-center md:text-left;
 }
+
+.h1Container {
+    @apply space-y-5 lg:space-y-3;
+}
+
 .h1 {
-    @apply font-[Oswald] text-8xl md:text-9xl  font-bold text-gray-300 drop-shadow-lg;
+    @apply font-[Oswald] text-7xl md:text-8xl px-5 font-bold text-gray-300 drop-shadow-lg ;
 }
 .subtitle {
-    @apply text-backColor font-bold text-2xl drop-shadow-lg p-5;
+    @apply text-backColor font-bold lg:text-3xl text-2xl drop-shadow-lg p-5 w-80 ;
 }
 
 .buttonsContainer {
-    @apply flex -translate-y-8 md:-translate-y-0 gap-10
+    @apply flex -translate-y-8 md:-translate-y-0 gap-10;
 } 
 
 .res {
