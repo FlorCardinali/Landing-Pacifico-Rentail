@@ -2,16 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Styles de Departamentos */
 .container {
-    @apply flex mt-10 lg:m-10 lg:flex-row flex-col;
+    overflow: hidden;
+    @apply flex justify-center w-full h-full items-center pt-10 px-5 lg:flex-row flex-col ;
+}
+.imgActive {
+    opacity: 1;
+    display: flex;
+    transition: all .5s;
+    object-fit: cover;
+    @apply lg:w-3/5  rounded-2xl bg-contain drop-shadow-lg lg:drop-shadow-2xl ;  
 }
 
-.imgActive {
-    @apply lg:w-2/3  lg:rounded-2xl bg-contain drop-shadow-lg lg:drop-shadow-2xl ; 
+.imgHidden {
+    transition: all .5s;
+    opacity: 0;
+    height: 0;
 }
-.textContainer {
-    @apply lg:w-1/3 flex flex-col lg:p-16;
+
+
+.textContainer { 
+    @apply lg:w-2/5 w-full h-full rounded-lg flex flex-col lg:p-16 gap-5  bg-light;
 }
 .titulo {
-    @apply font-[Oswald] text-6xl font-bold;
+    @apply font-[Oswald] md:text-6xl text-4xl font-bold;
 }
