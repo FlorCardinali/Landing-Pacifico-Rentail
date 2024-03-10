@@ -2,29 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Styles de Departamentos */
+
 .container {
-    overflow: hidden;
-    @apply flex justify-center w-full h-full items-center pt-10 px-5 lg:flex-row flex-col ;
-}
-.imgActive {
-    opacity: 1;
-    display: flex;
-    transition: all .5s;
-    object-fit: cover;
-    @apply lg:w-3/5  rounded-2xl bg-contain drop-shadow-lg lg:drop-shadow-2xl ;  
+    @apply my-20 w-screen flex flex-col items-center space-y-14;
 }
 
-.imgHidden {
-    transition: all .5s;
-    opacity: 0;
-    height: 0;
+.imgContainer {
+    @apply flex flex-row w-full items-center justify-center ;
+}
+
+.image {
+    height: 650px;
+    background-size: cover;
+    transition: all 700ms;
+    background-position: center;
+    @apply border-x-2 border-light;
+}
+
+.open {
+    
+    @apply w-2/3 ;
+}
+.close {
+    
+    @apply w-16 after:content-[''] after:block after:h-full after:bg-neutral-800/60 ;
 }
 
 
-.textContainer { 
-    @apply lg:w-2/5 w-full h-full rounded-lg flex flex-col lg:p-16 gap-5  bg-light;
+.btn {
+    height: 650px;
+    width: 50px;
+    @apply  bg-backColor cursor-pointer flex items-center justify-center;
 }
-.titulo {
-    @apply font-[Oswald] md:text-6xl text-4xl font-bold;
+.text {
+    @apply text-6xl font-[Oswald] font-bold drop-shadow-lg;
 }

@@ -12,7 +12,7 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
       </header>
-      <main>
+      <main className='flex flex-col w-screen justify-center items-center'>
         <Deptos></Deptos>
       </main>
     </>
