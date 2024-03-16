@@ -16,7 +16,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  @apply bg-light;
+  @apply bg-red-500;
 }
 
 

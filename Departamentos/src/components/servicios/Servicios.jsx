@@ -26,7 +26,8 @@ const Service = ({children, title}) => {
 const Servicios = () => {
     
 
-    return ( 
+    return (
+    <>
         <section className={css.section}>
             <div className="container px-5 py-24 mx-auto">
                 {/* text */}
@@ -37,7 +38,7 @@ const Servicios = () => {
 
                 <div className={css.container}>
 
-                <Service
+                    <Service
                     title="WI-FI"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-14 h-14 bi bi-wifi" viewBox="0 0 16 16">
@@ -87,13 +88,17 @@ const Servicios = () => {
                     </Service>
                 
                 </div>
-                 
-
-
 
 
             </div>
+
+            
         </section>
+        <div className="w-screen overflow-hidden h-[200px]">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-screen " viewBox="0 0 1440 320"><path fill="#ddddd2" fillOpacity="1" d="M0,96L1440,32L1440,0L0,0Z"></path></svg>
+        </div>
+        
+        </>
      );
 }
  

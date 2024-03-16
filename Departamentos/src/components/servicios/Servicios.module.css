@@ -7,12 +7,11 @@
     @apply w-32 h-32 inline-flex items-center justify-center rounded-full text-fontColor flex-shrink-0 ;
 }
 .svgContainer{
-    transform: translateZ(4rem);
-    @apply bg-transparent relative;
+  transform: translateZ(3rem);
 }
 .title {
-    transform: translateZ(3rem);
-    @apply text-zinc-200 font-[Oswald] text-xl flex-grow font-medium mb-3;
+    transform: translateZ(5rem);
+    @apply text-zinc-200 font-[Oswald] text-xl  font-medium mb-3;
 }
 
 .serviceContainer {
@@ -20,14 +19,14 @@
 }
 .card {
     cursor: pointer;
-    @apply  flex items-center justify-center;
+    @apply  flex items-center justify-center drop-shadow-2xl;
   }
   
   .content {
     text-align: center;
-    transition: all 0.7s;
+    transition: all 1s;
     transform-style: preserve-3d;
-    @apply  rounded-full  w-32 h-32 relative ;
+    @apply  rounded-full w-32 h-32 ;
   }
   
   .card:hover .content {
@@ -52,16 +51,16 @@
     padding: 2em;
     transform-style: preserve-3d;
     backface-visibility: hidden;
-    @apply drop-shadow-xl;
+    
   }
 
 
 /* Servicios */
 .container {
-    @apply flex flex-wrap items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 gap-10;
+    @apply flex flex-wrap items-center justify-center  gap-8;
 }
 .section {
-  @apply w-screen
+  @apply w-screen bg-light;
 }
 .h2 {
   @apply font-[Oswald] text-5xl text-gray-900 mb-4 font-extrabold;
