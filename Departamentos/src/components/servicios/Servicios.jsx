@@ -27,11 +27,11 @@ const Servicios = () => {
     
 
     return ( 
-        <section className="text-gray-600 body-font">
+        <section className={css.section}>
             <div className="container px-5 py-24 mx-auto">
                 {/* text */}
                 <div className="text-center mb-20">
-                    <h1 className=" text-5xl text-gray-900 mb-4">Nuestros Servicios</h1>
+                    <h2 className={css.h2}>Nuestros Servicios</h2>
                     
                 </div>
 

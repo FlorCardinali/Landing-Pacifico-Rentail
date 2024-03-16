@@ -10,7 +10,7 @@ export default {
       colors: { 
         backColor: "#bbb3a0",
         fontColor: "#4D3821",
-        myGreen: "#003366",
+        myGreen: "#4a8446",
         details: "#74634c",
         detailsDark: "#5c513a",
         light: "#ddddd2",

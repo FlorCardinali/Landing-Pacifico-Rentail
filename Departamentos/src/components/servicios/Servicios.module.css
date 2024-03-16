@@ -4,7 +4,7 @@
 
 /* Service */
 .svgContainer, .front, .back {
-    @apply w-44 h-44 inline-flex items-center justify-center rounded-full text-fontColor flex-shrink-0 ;
+    @apply w-32 h-32 inline-flex items-center justify-center rounded-full text-fontColor flex-shrink-0 ;
 }
 .svgContainer{
     transform: translateZ(4rem);
@@ -12,7 +12,7 @@
 }
 .title {
     transform: translateZ(3rem);
-    @apply text-white font-[Oswald] text-2xl flex-grow font-medium mb-3;
+    @apply text-zinc-200 font-[Oswald] text-xl flex-grow font-medium mb-3;
 }
 
 .serviceContainer {
@@ -20,14 +20,14 @@
 }
 .card {
     cursor: pointer;
-    @apply w-1/5 flex items-center justify-center;
+    @apply  flex items-center justify-center;
   }
   
   .content {
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.7s;
     transform-style: preserve-3d;
-    @apply  rounded-full  w-44 h-44 relative;
+    @apply  rounded-full  w-32 h-32 relative ;
   }
   
   .card:hover .content {
@@ -36,10 +36,10 @@
 
   .back {
     transform: rotateY(0.5turn);
-    @apply bg-gradient-to-br from-[rgb(200,200,200)] to-gray-800/40;
+    @apply bg-gradient-to-br from-[rgb(200,200,200)] from-5% to-detailsDark;
   }
   .front {
-    @apply bg-gradient-to-tl from-gray-800 to-[rgb(240,240,240)]
+    @apply bg-gradient-to-tl from-backColor from-60% to-[rgb(240,240,240)]
   }
    
   .front,
@@ -58,5 +58,11 @@
 
 /* Servicios */
 .container {
-    @apply flex flex-wrap items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 gap-5;
+    @apply flex flex-wrap items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 gap-10;
+}
+.section {
+  @apply w-screen
+}
+.h2 {
+  @apply font-[Oswald] text-5xl text-gray-900 mb-4 font-extrabold;
 }
