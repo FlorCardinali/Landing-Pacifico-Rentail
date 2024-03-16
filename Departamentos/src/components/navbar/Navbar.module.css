@@ -10,15 +10,15 @@
 }
 .link {
     min-width: 6rem;
-    @apply hover:scale-110 hover:brightness-125;
+    @apply hover:scale-110 text-white/75 hover:text-myGreen/75 brightness-150;
 }
 
 .marca {
-    @apply text-backColor basis-2 self-center text-2xl font-bold flex gap-5 min-w-[250px] z-20;
+    @apply text-white/75 ml-5 basis-2 self-center text-2xl font-bold flex gap-5 min-w-[250px] z-20;
 }
 
 .home {
-    @apply text-myGreen lg:text-[1.6rem] lg:self-center text-center lg:-translate-y-[0.15rem];
+    @apply hover:text-myGreen/65 text-white brightness-150 lg:text-[1.4rem] lg:self-center text-center lg:-translate-y-[0.07rem];
 }
 
 

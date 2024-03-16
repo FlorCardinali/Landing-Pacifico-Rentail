@@ -26,14 +26,14 @@
 }
 
 .buttonsContainer {
-    @apply flex -translate-y-8 md:-translate-y-0 gap-10;
+    @apply flex -translate-y-8 md:-translate-y-0 gap-6;
 } 
 
 .res {
-    @apply w-40 h-16 bg-detailsDark text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl hover:bg-details hover:scale-110 cursor-pointer
+    @apply w-40 h-16 bg-detailsDark hover:text-backColor text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl hover:bg-shadow  cursor-pointer ;
 }
 .conoce {
-    @apply text-light flex items-center justify-center hover:scale-110 hover:text-white
+    @apply text-light w-40 h-16 flex border border-light items-center justify-center hover:text-black hover:bg-light rounded-lg shadow-xl font-bold;
 }
 
  

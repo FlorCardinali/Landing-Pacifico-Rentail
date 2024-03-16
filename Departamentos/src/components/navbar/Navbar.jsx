@@ -51,11 +51,11 @@ const Navbar = () => {
             
             {/* menu hamburguesa */}
             <nav className={`${open ? css.openNav : "hidden"}`}>
-                <a className={`${css.link} ${css.home}`} href="">Home</a>
+                <a className={`${css.link} ${css.home}`} href="">Contacto</a>
                 <a className={css.link} href="">Departamentos</a>
                 <a className={css.link} href="">Servicios</a>
                 <a className={css.link} href="">La zona</a>
-                <a className={css.link} href="">Contacto</a>
+                <a className={css.link} href=""></a>
             </nav>
              {/* boton hamburgesa */}
              <button onClick={handleClick} className={`${open ? css.openButton :  css.close}`}>

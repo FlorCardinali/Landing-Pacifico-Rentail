@@ -2,24 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Service */
+.svgContainer, .front, .back {
+    @apply w-44 h-44 inline-flex items-center justify-center rounded-full text-fontColor flex-shrink-0 ;
+}
+.svgContainer{
+    transform: translateZ(4rem);
+    @apply bg-transparent relative;
+}
+.title {
+    transform: translateZ(3rem);
+    @apply text-white font-[Oswald] text-2xl flex-grow font-medium mb-3;
+}
+
+.serviceContainer {
+    @apply p-4 md:w-1/4 flex flex-col text-center items-center;
+}
 .card {
-    width: 12rem;
     cursor: pointer;
+    @apply w-1/5
   }
   
   .content {
     text-align: center;
-    position: relative;
-    transition: all 1s;
-    background-color: rgb(127, 204, 240);
-    padding: 5em;
+    transition: all 0.5s;
     transform-style: preserve-3d;
+    @apply  rounded-full  w-44 h-44 relative;
   }
   
   .card:hover .content {
     transform: rotateY(0.5turn);
   }
-  
+
+  .back {
+    transform: rotateY(0.5turn);
+    @apply bg-gradient-to-br  from-[rgb(200,200,200)] to-[#97A82A];
+  }
+  .front {
+    @apply bg-gradient-to-tl from-[#97A82A] to-[rgb(240,240,240)]
+  }
+   
   .front,
   .back {
     position: absolute;
@@ -30,23 +52,11 @@
     padding: 2em;
     transform-style: preserve-3d;
     backface-visibility: hidden;
+    @apply drop-shadow-xl;
   }
-  
-  .title {
-    transform: translateZ(5rem);
-    font-size: 2rem;
-  }
-  
-  .subtitle {
-    transform: translateZ(2rem);
-  }
-  
-  .back {
-    transform: rotateY(0.5turn);
-    background-color: #009bff;
-  }
-  
-  .description {
-    transform: translateZ(3rem);
-  }
-  
+
+
+/* Servicios */
+.container {
+    @apply flex flex-wrap items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 gap-5;
+}
