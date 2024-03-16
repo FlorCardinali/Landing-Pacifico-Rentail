@@ -20,7 +20,7 @@
 }
 .card {
     cursor: pointer;
-    @apply w-1/5
+    @apply w-1/5 flex items-center justify-center;
   }
   
   .content {
@@ -36,10 +36,10 @@
 
   .back {
     transform: rotateY(0.5turn);
-    @apply bg-gradient-to-br  from-[rgb(200,200,200)] to-[#97A82A];
+    @apply bg-gradient-to-br from-[rgb(200,200,200)] to-gray-800/40;
   }
   .front {
-    @apply bg-gradient-to-tl from-[#97A82A] to-[rgb(240,240,240)]
+    @apply bg-gradient-to-tl from-gray-800 to-[rgb(240,240,240)]
   }
    
   .front,

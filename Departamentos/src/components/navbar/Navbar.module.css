@@ -10,7 +10,7 @@
 }
 .link {
     min-width: 6rem;
-    @apply hover:scale-110 text-white/75 hover:text-myGreen/75 brightness-150;
+    @apply hover:scale-110 text-white/75 hover:text-backColor;
 }
 
 .marca {
@@ -18,7 +18,7 @@
 }
 
 .home {
-    @apply hover:text-myGreen/65 text-white brightness-150 lg:text-[1.4rem] lg:self-center text-center lg:-translate-y-[0.07rem];
+    @apply hover:text-backColor text-white  lg:text-[1.4rem] lg:self-center text-center lg:-translate-y-[0.07rem];
 }
 
 
