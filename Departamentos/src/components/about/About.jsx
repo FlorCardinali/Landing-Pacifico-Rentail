@@ -1,11 +1,11 @@
-import css from "../servicios/Servicios.module.css"
+import css from "./About.module.css"
 import React, { Children } from 'react';
 
 
  
 
 
-const Servicios = () => {
+const About = () => {
             
 
     return (
@@ -19,14 +19,17 @@ const Servicios = () => {
                         Bienvenidos:
                         <br />
                         <br />
-                        Somos una empresa familiar especializada en el alquiler de departamentos por día. Desde 2016, nos hemos dedicado a proporcionar un servicio directo para satisfacer las necesidades de nuestros clientes durante su estadía en nuestra ciudad.
+                        Somos una empresa <span className={css.span}>familiar</span> especializada en el alquiler de departamentos por día. Desde 2016, nos hemos dedicado a proporcionar un servicio directo para satisfacer las necesidades de nuestros clientes durante su estadía en nuestra ciudad.
                         <br />
-                        Nos esforzamos por ofrecer un alojamiento cómodo y accesible para aquellos que buscan una opción práctica durante su viaje.
+                        Nos esforzamos por ofrecer un alojamiento <span className={css.span}>cómodo y accesible</span> para aquellos que buscan una opción práctica durante su viaje.
                         <br />
-                        Nuestros departamentos están diseñados para ofrecer un espacio funcional donde pueda sentirse como en casa durante su estadía. Valoramos la transparencia y la comodidad en nuestro servicio, creando un ambiente acogedor para nuestros huéspedes.
+                        Nuestros departamentos están diseñados para ofrecer un espacio funcional donde pueda sentirse como en casa durante su estadía. Valoramos la transparencia y la comodidad en nuestro servicio, creando un ambiente acogedor para nuestros huéspedes al <span className={css.span}>precio mas bajo</span> .
                         <br />
                         <br />
-                        Gracias por considerar Pacífico Rentail para su próxima visita.
+                        
+                        <hr className="h-[0.2rem] w-[20%] m-auto mb-4 bg-myGreen border-none"></hr>
+
+                        <span className={css.small}>Gracias por considerar Pacífico Rentail para su próxima visita.</span>
                     </p>                  
                 </div>
             </section>
@@ -37,5 +40,5 @@ const Servicios = () => {
      );
 }
  
-export default Servicios;
+export default About;
 

@@ -9,5 +9,12 @@
   @apply xl:w-1/2 lg:w-3/4 w-full mx-auto text-center;
 }
 .p {
+  font-family: Laila, Arial, Helvetica, sans-serif;
   @apply leading-7 text-lg;
+}
+.span {
+  @apply  text-myGreen font-extrabold;
+}
+.small {
+  @apply text-sm
 }

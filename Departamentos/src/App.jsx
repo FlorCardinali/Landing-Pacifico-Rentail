@@ -1,7 +1,7 @@
 
+import About from './components/about/About'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
-import Servicios from './components/servicios/Servicios'
 
 function App() {
   
@@ -13,7 +13,7 @@ function App() {
         <Hero></Hero>
       </header>
       <main className='flex flex-col w-screen justify-center items-center'>
-        <Servicios></Servicios>
+        <About></About>
       </main>
     </>
   )
