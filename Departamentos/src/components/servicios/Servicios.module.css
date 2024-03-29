@@ -2,66 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Service */
-.svgContainer, .front, .back {
-    @apply w-32 h-32 inline-flex items-center justify-center rounded-full text-fontColor flex-shrink-0 ;
-}
-.svgContainer{
-  transform: translateZ(3rem);
-}
-.title {
-    transform: translateZ(5rem);
-    @apply text-zinc-200 font-[Oswald] text-xl  font-medium mb-3;
-}
-
-.serviceContainer {
-    @apply p-4 md:w-1/4 flex flex-col text-center items-center;
-}
-.card {
-    cursor: pointer;
-    @apply  flex items-center justify-center drop-shadow-2xl;
-  }
-  
-  .content {
-    text-align: center;
-    transition: all 1s;
-    transform-style: preserve-3d;
-    @apply  rounded-full w-32 h-32 ;
-  }
-  
-  .card:hover .content {
-    transform: rotateY(0.5turn);
-  }
-
-  .back {
-    transform: rotateY(0.5turn);
-    @apply bg-gradient-to-br from-[rgb(200,200,200)] from-5% to-detailsDark;
-  }
-  .front {
-    @apply bg-gradient-to-tl from-backColor from-60% to-[rgb(240,240,240)]
-  }
-   
-  .front,
-  .back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 2em;
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    
-  }
-
-
-/* Servicios */
-.container {
-    @apply flex flex-wrap items-center justify-center  gap-8;
-}
 .section {
-  @apply w-screen bg-light;
+  @apply px-5 py-24 w-screen bg-light;
 }
-.h2 {
-  @apply font-[Oswald] text-5xl text-gray-900 mb-4 font-extrabold;
+.textContainer {
+  @apply xl:w-1/2 lg:w-3/4 w-full mx-auto text-center;
+}
+.p {
+  @apply leading-7 text-lg;
 }
