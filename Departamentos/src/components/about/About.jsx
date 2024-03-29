@@ -33,7 +33,7 @@ const About = () => {
                     </p>                  
                 </div>
             </section>
-            <div className="w-screen overflow-hidden h-[200px]">
+            <div className="w-screen overflow-hidden h-[200px] bg-details">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-screen " viewBox="0 0 1440 320"><path fill="#ddddd2" fillOpacity="1" d="M0,96L1440,32L1440,0L0,0Z"></path></svg>
             </div>
         </>
