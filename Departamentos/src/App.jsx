@@ -1,5 +1,6 @@
 
 import About from './components/about/About'
+import Departamentos from './components/deptos/Departamentos'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 
@@ -12,8 +13,9 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
       </header>
-      <main className='flex flex-col w-screen justify-center items-center'>
+      <main className='flex flex-col m-0 justify-center items-center'>
         <About></About>
+        <Departamentos></Departamentos>
       </main>
     </>
   )

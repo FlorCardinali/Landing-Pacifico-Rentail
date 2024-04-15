@@ -8,7 +8,6 @@ const Hero = () => {
         </div>
         
         <div className={styles.textContainer}>
-            <div className={styles.h1Container}>
                 <div>
                     <h1 className={styles.h1}>Alquiler </h1>
                     <h1  className={`${styles.h1} ${styles.moverH1}`}>por día</h1>
@@ -24,8 +23,6 @@ const Hero = () => {
                     </a>
                     <a className={styles.conoce} href="">Conoce más</a>
                 </div>
-            
-            </div>
             
         </div>
     </section> 

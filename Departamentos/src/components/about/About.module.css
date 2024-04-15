@@ -6,10 +6,11 @@
   @apply px-5 py-24 w-screen bg-light;
 }
 .textContainer {
+  font-family: Laila, Arial, Helvetica, sans-serif;
+
   @apply xl:w-1/2 lg:w-3/4 w-full mx-auto text-center;
 }
 .p {
-  font-family: Laila, Arial, Helvetica, sans-serif;
   @apply leading-7 text-lg;
 }
 .span {

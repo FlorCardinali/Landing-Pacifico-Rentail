@@ -26,11 +26,11 @@ const About = () => {
                         Nuestros departamentos están diseñados para ofrecer un espacio funcional donde pueda sentirse como en casa durante su estadía. Valoramos la transparencia y la comodidad en nuestro servicio, creando un ambiente acogedor para nuestros huéspedes al <span className={css.span}>precio mas bajo</span> .
                         <br />
                         <br />
-                        
-                        <hr className="h-[0.2rem] w-[20%] m-auto mb-4 bg-myGreen border-none"></hr>
+                      </p>   
+                    <hr className="h-[0.2rem] w-[20%] m-auto mb-4 bg-myGreen border-none"></hr>
 
-                        <span className={css.small}>Gracias por considerar Pacífico Rentail para su próxima visita.</span>
-                    </p>                  
+                    <span className={css.small}>Gracias por considerar Pacífico Rentail para su próxima visita.</span>
+                                    
                 </div>
             </section>
             <div className="w-screen overflow-hidden h-[200px] bg-details">

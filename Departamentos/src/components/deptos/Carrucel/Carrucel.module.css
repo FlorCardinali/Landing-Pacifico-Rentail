@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgContainer {
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    @apply flex max-w-[400px] min-w-[400px] h-[300px];
+
+}
+.img {
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+.btn {
+    @apply w-4 h-full bg-detailsDark
+}

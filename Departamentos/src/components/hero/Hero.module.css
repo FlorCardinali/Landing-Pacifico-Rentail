@@ -4,7 +4,8 @@
 
 
 .section {
-    @apply w-screen h-screen flex items-center justify-center;
+    max-width: 100vw;
+    @apply h-screen flex items-center justify-center;
 } 
 .img {
     @apply bg-[url('hero.webp')] bg-cover md:bg-center bg-[-6rem] absolute w-screen h-screen after:content-[''] after:w-screen after:h-screen after:absolute after:bg-neutral-800/40 -z-10 after:-z-10;
@@ -14,9 +15,6 @@
     @apply md:w-4/5 flex h-screen md:h-auto flex-col md:gap-8 gap-20 items-center md:items-start justify-center text-center md:text-left;
 }
 
-.h1Container {
-    @apply space-y-3 lg:space-y-3 p-5;
-}
 
 .h1 {
     @apply font-[Oswald] text-7xl md:text-8xl px-5 font-bold text-gray-300 drop-shadow-lg ;
