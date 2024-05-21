@@ -3,27 +3,26 @@
 @tailwind utilities;
 
 .imgContainer {
-    width: 100%;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    transition-delay: 1500ms;
+    transition-delay: 1800ms;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE/Edge */
-    @apply flex max-w-[400px] min-w-[400px] h-[300px] ;
+    @apply flex w-full;
 
 }
 .generalContainer {
     height: max-content;
-    @apply inline-flex relative justify-center items-center p-4 gap-5;
+    @apply flex relative justify-center items-stretch gap-2 text-shadow;
 }
 
 .img {
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
+    @apply rounded-xl;
 }
 .btn {
-    height: 52px;
     width: 32px;
-    @apply p-3;
+    @apply bg-transparent;
 }

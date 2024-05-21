@@ -8,7 +8,7 @@
             "comodidades": 
                 {
                     "aire" : true,
-                    "colectivos" : "500,502,503",
+                    "colectivos" : "500 502 503",
                     "cochera" : false,
                     "wifi" : true,
                     "tv" : true,
@@ -19,7 +19,7 @@
     "Molina" : 
         {
             "fotos" : ["es5.webp","es4.webp","es3.webp","es2.webp","es1.webp"] ,
-            "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam assumenda provident debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam",
+            "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam assumenda provident debitis. Lorem ipsum dolor",
             "direccion" : "Molina 35468747",
             "precio" : 32,
             "comodidades": 
@@ -31,22 +31,6 @@
                     "tv" : true,
                     "calefaccion" : true
                 }
-        },
-
-    "Molina 2" : 
-        {
-            "fotos" : ["es5.webp","es4.webp","es3.webp","es2.webp","es1.webp"] ,
-            "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam assumenda provident debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam",
-            "direccion" : "Molina 357",
-            "precio" : 3542,
-            "comodidades": 
-                {
-                    "aire" : false,
-                    "colectivos" : "513,517",
-                    "cochera" : false,
-                    "wifi" : false,
-                    "tv" : false,
-                    "calefaccion" : false
-                }
         }
+   
 }

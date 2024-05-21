@@ -27,13 +27,13 @@ const About = () => {
                         <br />
                         <br />
                       </p>   
-                    <hr className="h-[0.2rem] w-[20%] m-auto mb-4 bg-myGreen border-none"></hr>
+                    <hr className="h-[0.2rem] w-[20%] m-auto mb-4 bg-gray-800/40 border-none"></hr>
 
                     <span className={css.small}>Gracias por considerar Pacífico Rentail para su próxima visita.</span>
                                     
                 </div>
             </section>
-            <div className="w-screen overflow-hidden h-[200px] bg-details">
+            <div className="w-screen lg:h-[200px] h-[150px] bg-details">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-screen " viewBox="0 0 1440 320"><path fill="#ddddd2" fillOpacity="1" d="M0,96L1440,32L1440,0L0,0Z"></path></svg>
             </div>
         </>

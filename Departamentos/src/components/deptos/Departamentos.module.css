@@ -4,9 +4,40 @@
 
 .section {
     width: 100%;
-    height: max-content;
-    @apply bg-details;
+    @apply bg-details space-y-20 flex flex-col items-center;
 }
-.deptoContainer {
-    width: 100vw;
-}
+    .deptoContainer {
+        @apply bg-gradient-to-l from-[#4c3f37] to-40% to-details flex flex-col lg:flex-row items-center lg:items-stretch w-11/12 text-light gap-5;
+    }
+        .carrucel {
+            @apply  w-screen max-h-[450px];
+        }
+        .contenedor {
+            @apply max-h-[450px] p-7 lg:w-5/6 flex flex-col justify-between ;  
+        }
+            .texto {
+                @apply space-y-5 overflow-auto;
+            }
+                .direccion {
+                    @apply text-4xl font-semibold font-[Oswald] text-light;
+                }
+                .colectivo {
+                    @apply flex h-5 w-full pl-3 gap-3 items-center;
+                }
+                .descripcion {
+                    font-family: Laila, Arial, Helvetica, sans-serif;
+                    @apply pl-3 pr-3 pb-5 h-fit overflow-auto;
+                }
+            .aside{
+                @apply flex flex-col;
+            }
+                .comodidadesTitulo{
+                    @apply font-[Oswald] text-xl pl-3;
+                }
+                .comodidades {
+                    @apply inline-flex gap-1;
+                }
+                    .comodidad{
+                        @apply p-3 flex flex-col justify-center items-center rounded-full w-14 h-14 ;
+                    }
+                        
