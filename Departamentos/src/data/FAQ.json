@@ -1,0 +1,28 @@
+{
+    "preguntas" : [
+        {
+            "pregunta":
+            "¿Cual es la hora de ingreso?",
+            "respuesta" : 
+            "27HS."
+        },
+        {
+            "pregunta":
+            "¿De que color es tu perro?",
+            "respuesta" : 
+            "Violeta, aunque a veces se pone verde."
+        },
+        {
+            "pregunta":
+            "¿Puedo escribir a las 00:49hs?",
+            "respuesta" : 
+            "Si, no sabes lo feliz que me hace que me despierten a esa hora. Es mas, si escribis a esa hora te hacemos un 70% de descuento."
+        },
+        {
+            "pregunta":
+            "¿Si tengo tres patos y uno lo hago a la olla, cuantas vacas me quedan?",
+            "respuesta" : 
+            "Teniendo en cuenta la teoria de la relatividad y la no destruccion de la materia, podemos asegurar con absoluta certeza que usted posee 15 conejos y 4 lagartijas. Tambien podemos deducir que el elefante que tiene en su olla pesa aproximadamente 5 gramos. Y por consiguiente, la cena alcansa para 45 personas."
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 
+import Faq from './components/FAQ/Faq'
 import About from './components/about/About'
 import Departamentos from './components/deptos/Departamentos'
 import Hero from './components/hero/Hero'
@@ -16,6 +17,7 @@ function App() {
       <main className='flex flex-col m-0 justify-center items-center'>
         <About></About>
         <Departamentos></Departamentos>
+        <Faq></Faq>
       </main>
     </>
   )

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+    
+    @apply w-screen bg-light flex flex-col items-center ;
+}
+    .contenedor {
+        @apply w-5/6 h-14;
+    }
+    .respuesta {
+        transition: all 5s;
+    }
