@@ -12,23 +12,23 @@
 }
 
 .textContainer {
-    @apply md:w-4/5 flex h-screen md:h-auto flex-col md:gap-8 gap-20 items-center md:items-start justify-center text-center md:text-left;
+    @apply md:w-4/5 flex h-screen md:h-auto flex-col md:gap-10 gap-8 items-center md:items-start justify-center text-center md:text-left translate-y-28 md:translate-y-10;
 }
 
 
 .h1 {
-    @apply font-[Oswald] text-7xl md:text-8xl px-5 font-bold text-gray-300 drop-shadow-lg ;
+    @apply font-[Laila] text-7xl md:text-8xl font-bold text-gray-300 drop-shadow-lg ;
 }
 .subtitle {
-    @apply text-backColor font-bold lg:text-3xl text-2xl drop-shadow-lg p-5 lg:w-96 w-72 ;
+    @apply text-light font-[Laila] font-semibold md:text-2xl text-2xl drop-shadow-lg lg:w-full w-72 -translate-y-4;
 }
 
 .buttonsContainer {
-    @apply flex -translate-y-8 md:-translate-y-0 gap-6;
+    @apply flex md:flex-row flex-col -translate-y-3 md:-translate-y-0 gap-6;
 } 
 
 .res {
-    @apply w-40 h-16 bg-detailsDark hover:text-backColor text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl hover:bg-shadow  cursor-pointer ;
+    @apply w-40 h-16 bg-[#918161] hover:text-light text-light flex items-center justify-center text-xl font-bold rounded-lg shadow-xl hover:bg-shadow  cursor-pointer ;
 }
 .conoce {
     @apply text-light w-40 h-16 flex border border-light items-center justify-center hover:text-black hover:bg-light rounded-lg shadow-xl font-bold;

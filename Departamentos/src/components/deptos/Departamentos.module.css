@@ -4,10 +4,10 @@
 
 .section {
     width: 100%;
-    @apply bg-details space-y-20 flex flex-col items-center;
+    @apply bg-details space-y-10 lg:space-y-20 flex flex-col items-center;
 }
     .deptoContainer {
-        @apply bg-gradient-to-l from-[#4c3f37] to-40% to-details flex flex-col lg:flex-row items-center lg:items-stretch w-11/12 text-light gap-5;
+        @apply mb-5 bg-gradient-to-l from-[#4c3f37] to-80% lg:to-40% to-details flex flex-col lg:flex-row items-center lg:items-stretch w-11/12 text-light gap-5;
     }
         .carrucel {
             @apply  w-screen max-h-[450px];

@@ -5,7 +5,9 @@ import Carrucel from "./Carrucel/Carrucel";
 const Departamentos = () => {
   const depas = Object.values(data);
   return (
+    <>
     <section className={css.section}>
+      <h2 className="font-[Laila] font-bold text-4xl text-light">Nuestros departamentos</h2>
       {depas.map((depto, index) => (
         <div key={Math.random()} className={css.deptoContainer}>
           <Carrucel estilos={css.carrucel} images={depto.fotos}></Carrucel>
@@ -91,6 +93,12 @@ const Departamentos = () => {
         </div>
       ))}
     </section>
+    <div className="w-screen bg-light">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#74634c" fillOpacity="1" d="M0,64L1440,128L1440,0L0,0Z"></path>
+        </svg>
+    </div>
+    </>
   );
 };
 
