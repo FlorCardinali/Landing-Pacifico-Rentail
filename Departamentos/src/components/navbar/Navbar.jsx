@@ -42,19 +42,19 @@ const Navbar = () => {
 
             {/* menu lg */}
             <nav className={`${open ? "hidden" : css.contNav} `}>
-                <a className={`${css.link} ${css.home}`} href="">Home</a>
-                <a className={css.link} href="">Departamentos</a>
-                <a className={css.link} href="">Servicios</a>
-                <a className={css.link} href="">La zona</a>
+                <a className={`${css.link} ${css.home}`} href="#hero">Home</a>
+                <a className={css.link} href="#about">Sobre Nosotros</a>
+                <a className={css.link} href="#deptos">Departamentos</a>
+                <a className={css.link} href="">Servicio</a>
                 <a className={css.link} href="">Contacto</a>
             </nav>
             
             {/* menu hamburguesa */}
             <nav className={`${open ? css.openNav : "hidden"}`}>
-                <a className={`${css.link} ${css.home}`} href="">Contacto</a>
-                <a className={css.link} href="">Departamentos</a>
-                <a className={css.link} href="">Servicios</a>
-                <a className={css.link} href="">La zona</a>
+                <a className={`${css.link} ${css.home}`} href="#hero">Contacto</a>
+                <a className={css.link} href="#about">Sobre Nosotros</a>
+                <a className={css.link} href="#deptos">Departamentos</a>
+                <a className={css.link} href="">Servicio</a>
                 <a className={css.link} href=""></a>
             </nav>
              {/* boton hamburgesa */}

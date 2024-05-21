@@ -3,7 +3,7 @@
         {
             "fotos" : ["es5.webp","es4.webp","es3.webp","es2.webp","es1.webp"] ,
             "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam assumenda provident debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam",
-            "direccion" : "España 35468747",
+            "direccion" : "España 90",
             "precio" : 354352,
             "comodidades": 
                 {
@@ -20,7 +20,7 @@
         {
             "fotos" : ["es5.webp","es4.webp","es3.webp","es2.webp","es1.webp"] ,
             "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autsuscipit. Alias minus accusamus architecto ex. Quam reprehenderit nostrum et commodi consequuntur, est aut repellat qui, voluptatem, quibusdam assumenda provident debitis. Lorem ipsum dolor",
-            "direccion" : "Molina 35468747",
+            "direccion" : "Molina 354",
             "precio" : 32,
             "comodidades": 
                 {

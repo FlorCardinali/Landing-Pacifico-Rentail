@@ -13,8 +13,11 @@
 .p {
   @apply leading-7 text-lg;
 }
+.bienvenidos{
+  @apply text-3xl font-bold text-[#2b221d];
+}
 .span {
-  @apply  text-shadow font-extrabold;
+  @apply  text-[#2b221d] font-extrabold;
 }
 .small {
   @apply text-sm
