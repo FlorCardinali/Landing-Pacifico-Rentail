@@ -27,6 +27,7 @@
             @apply
             ml-10
             flex md:-translate-x-10 
+            pr-10
             md:gap-32 gap-16 md:justify-start justify-center
         }
             .subtitulo{

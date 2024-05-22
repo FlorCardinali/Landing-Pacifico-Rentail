@@ -10,23 +10,23 @@ const Footer = () => {
         <footer className={css.footer}>
             <div className={css.contenedorSuperior}>
                 <div className={css.logo}>
-                        <h4 className={css.marca}>Pacific Rentail</h4>
+                        <h3 className={css.marca}>Pacific Rentail</h3>
                         <span className="pl-2 font-[Laila] text-sm text-[#b6ab8e]">Bahia Blanca</span>
                 </div>
                 <div className={css.uls}>
-                    <ul>   
+                    <div className="flex flex-col">   
                         <p className={css.subtitulo}>Contacto</p>
-                        <a href=""><li className={css.li}>WhatsApp</li></a>
-                        <a href=""><li className={css.li}>Facebook</li></a>
-                        <a href=""><li className={css.li}>Instagram</li> </a>
-                    </ul>
+                        <a href="" className={css.li}>WhatsApp</a>
+                        <a href="" className={css.li}>Facebook</a>
+                        <a href="" className={css.li}>Instagram</a>
+                    </div>
 
-                    <ul>
+                    <div className="flex flex-col">
                         <p className={css.subtitulo}>Interes</p>
-                        <a href=""><li className={css.li}>Localidad</li></a>
-                        <a href=""><li className={css.li}>Pais</li></a>
-                        <a href=""><li className={css.li}>Maps</li></a> 
-                    </ul>
+                        <a href="" className={css.li}>Localidad</a>
+                        <a href="" className={css.li}>Pais</a>
+                        <a href="" className={css.li}>Maps</a> 
+                    </div>
                </div>
                     
                     
@@ -39,10 +39,10 @@ const Footer = () => {
 
                 <div className={css.contenedorRedes}>
                     <a className={css.red} href="https://www.linkedin.com/in/florencia-cardinali/">
-                        <img className="hover:scale-110" src="png/linkedin.png"></img>
+                        <img alt="linkdln" className="hover:scale-110" src="png/linkedin.png"></img>
                     </a>
-                    <a className={css.red} href="https://www.linkedin.com/in/florencia-cardinali/">
-                        <img className="hover:scale-110" src="png/github.png"></img>
+                    <a className={css.red} href="https://github.com/FlorCardinali">
+                        <img alt="github" className="hover:scale-110" src="png/github.png"></img>
                     </a>
                 </div>
                 
