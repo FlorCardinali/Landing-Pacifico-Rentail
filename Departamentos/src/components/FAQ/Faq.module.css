@@ -2,15 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.section {
-    @apply 
+.section{
+    @apply
     w-screen 
     bg-light 
+    flex
+    flex-col
+    items-center
+    gap-24
+    pb-20
+}
+.titulo {
+    @apply
+    font-[Laila]
+    text-4xl
+    text-center
+    font-semibold
+}
+.contenedorGeneral {
+    @apply 
+    w-screen 
+   
     flex 
     flex-col 
     items-center 
-    gap-[0.5em];
+    gap-[0.5em]
+    font-[Laila];
 }
     .contenedor {
         @apply 

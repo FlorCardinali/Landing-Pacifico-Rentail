@@ -9,15 +9,20 @@ const Hero = () => {
         
         <div className={styles.textContainer}>
                 <div>
-                    <h1 className={styles.h1}>Departamentos<br></br> Por dia</h1>
+                    <h1 className={styles.h1}>
+                        <span className="lg:inline hidden">Departamentos</span>
+                        <span className="lg:hidden inline">Deptos.</span>
+                        <br></br> 
+                    
+                    Por dia</h1>
                 </div>
                 <p className={styles.subtitle}>Bahía Blanca, Buenos Aires.</p>         
 
-                <div className={styles.buttonsContainer}>
-                    <a className={styles.conoce} href="">Conoce más</a>
+                <div className={`${styles.buttonsContainer} ${"md:flex-row-reverse md:scale-100 scale-[85%]"}`}>
                     <a className={styles.res}>
                         Reservas
                     </a>
+                    <a className={styles.conoce} href="">Conoce más</a>
                 </div>
         </div>
     </section> 

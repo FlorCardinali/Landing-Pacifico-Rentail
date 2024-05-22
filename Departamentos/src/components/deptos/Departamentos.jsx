@@ -1,5 +1,6 @@
 import data from "../../data/dataDeptos.json";
 import css from "../deptos/Departamentos.module.css";
+import Titulo from "../reutilizables/Titulo";
 import Carrucel from "./Carrucel/Carrucel";
 
 const Departamentos = () => {
@@ -7,7 +8,11 @@ const Departamentos = () => {
   return (
     <>
     <section className={css.section}>
-      <h2 className="font-[Laila] font-bold text-5xl text-light">Nuestros departamentos</h2>
+      <Titulo
+        texto="Nuestros departamentos"
+        color="#d1cbb7"
+        colorC="#2b221d" 
+      />
       {depas.map((depto, index) => (
         <div key={Math.random()} className={css.deptoContainer}>
           <Carrucel estilos={css.carrucel} images={depto.fotos}></Carrucel>
