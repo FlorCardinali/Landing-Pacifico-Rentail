@@ -6,11 +6,12 @@ El cliente requería una página web sencilla que transmitiera una sensación c�
 ## 💡 Decisión
 Opté por crear una landing page simple que comunicara claramente el mensaje del cliente desde el inicio. Recolecté imágenes de los departamentos para enriquecer la experiencia del usuario y añadí enlaces directos al WhatsApp del cliente para facilitar las consultas. Además, incorporé una sección de preguntas frecuentes para resolver la mayoría de las dudas de los usuarios y fomentar el contacto para realizar reservas. De esta manera, se optimizan los tiempos de respuesta y se simplifica la búsqueda de imágenes de los departamentos, todo en un solo enlace a esta página.
 
-# 🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías Utilizadas
 
 Se utilizó **React JS** con **Tailwind CSS**. Los estilos fueron aplicados utilizando **CSS Modules**. Se respetó el diseño responsivo para celulares, tablets y PC.
 
-## 🎨 Paleta de Colores Utilizada
+
+## 🎨 Paleta de Colores
 - `50`: #f5f5f1
 - `100`: #e7e5da
 - `200`: #d1cbb7
