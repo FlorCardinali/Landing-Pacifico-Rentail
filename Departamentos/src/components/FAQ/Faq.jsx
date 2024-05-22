@@ -16,7 +16,7 @@ const Faq = () => {
 
     return (
         <>
-        <section id="faq" className={css.section}>
+        <section  className={css.section}>
             <Titulo
             texto="Preguntas frecuentes"
             color="#4c3f37"
