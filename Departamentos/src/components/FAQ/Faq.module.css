@@ -12,49 +12,45 @@
     gap-24
     pb-20
 }
-.titulo {
-    @apply
-    font-[Laila]
-    text-4xl
-    text-center
-    font-semibold
-}
-.contenedorGeneral {
-    @apply 
-    w-screen 
-   
-    flex 
-    flex-col 
-    items-center 
-    gap-[0.5em]
-    font-[Laila];
-}
-    .contenedor {
+    .contenedorGeneral {
         @apply 
-        w-4/6 
+        w-screen 
+    
         flex 
         flex-col 
-        gap-3
+        items-center 
+        gap-[0.5em]
+        font-[Laila];
     }
-    .pregunta {
-        @apply  
-        bg-gradient-to-r from-[#d1cbb7] to-light 
-        hover:brightness-105
-        shadow-lg
-        w-full
-        text-left
-        min-h-16
-        flex
-        items-center
-        p-3 pl-6
-    }
-   
-    .contRespuesta {
-        @apply block mb-2 p-2 pt-1 bg-light w-full;
-    }
-    .respuesta {
-        @apply 
-        animate-fade-down animate-once animate-duration-300 animate-ease-in 
-        text-left
-        pl-5;
-    }
+        .contenedor {
+            @apply 
+            w-5/6 
+            flex 
+            flex-col 
+            
+        }
+            .pregunta {
+                @apply  
+                font-bold
+                bg-gradient-to-r from-[#d1cbb7] to-light 
+                hover:brightness-105
+                shadow-lg
+                w-full
+                text-left
+                min-h-16
+                flex
+                items-center
+                p-3 pl-6
+            }
+        
+            .contRespuesta {
+                @apply rounded-lg border-2 border-light flex flex-row py-4 px-2 z-0 bg-[#b6ab8e] w-full;
+            }
+            .respuesta {
+                @apply 
+                animate-fade-down animate-once animate-duration-300 animate-ease-in 
+                text-left
+                text-[#2b221d] 
+                font-semibold
+                pl-5;
+            }
