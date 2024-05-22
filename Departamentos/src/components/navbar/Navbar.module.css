@@ -10,7 +10,7 @@
 }
 .link {
     min-width: 6rem;
-    @apply hover:scale-110 text-white/75 hover:text-backColor text-center;
+    @apply hover:scale-110 text-white/75 hover:text-backColor text-right lg:text-center;
 }
 
 .marca {
@@ -18,7 +18,7 @@
 }
 
 .home {
-    @apply hover:text-backColor text-white  lg:text-[1.4rem] lg:self-center text-center lg:-translate-y-[0.07rem];
+    @apply hover:text-backColor -translate-x-1 text-white  lg:text-[1.4rem] lg:self-center  lg:-translate-y-[0.07rem];
 }
 
 
@@ -27,7 +27,7 @@
     align-items: center;
     height: 30px;
     gap: 2rem;
-    @apply px-10 text-light basis-1 font-semibold text-lg grow lg:flex hidden relative;
+    @apply px-10 text-right text-light basis-1 font-semibold text-lg grow lg:flex hidden relative;
 }
 
 .openNav {

@@ -51,7 +51,7 @@ const Navbar = () => {
             
             {/* menu hamburguesa */}
             <nav className={`${open ? css.openNav : "hidden"}`}>
-                <a className={`${css.link} ${css.home}`} href="#hero">Contacto</a>
+                <a className={`${css.link} ${css.home}`} href="#hero">Home</a>
                 <a className={css.link} href="#about">Sobre Nosotros</a>
                 <a className={css.link} href="#deptos">Departamentos</a>
                 <a className={css.link} href="">Servicio</a>
