@@ -2,13 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .section {
-    
-    @apply w-screen bg-light flex flex-col items-center ;
+    @apply 
+    w-screen 
+    bg-light 
+    flex 
+    flex-col 
+    items-center 
+    gap-[0.5em];
 }
     .contenedor {
-        @apply w-5/6 h-14;
+        @apply 
+        w-4/6 
+        flex 
+        flex-col 
+        gap-3
+    }
+    .pregunta {
+        @apply  
+        bg-gradient-to-r from-[#d1cbb7] to-light 
+        hover:brightness-105
+        shadow-lg
+        w-full
+        text-left
+        min-h-16
+        flex
+        items-center
+        p-3 pl-6
+    }
+   
+    .contRespuesta {
+        @apply block mb-2 p-2 pt-1 bg-light w-full;
     }
     .respuesta {
-        /* aca quede */
+        @apply 
+        animate-fade-down animate-once animate-duration-300 animate-ease-in 
+        text-left
+        pl-5;
     }

@@ -16,14 +16,18 @@ const Faq = () => {
     return (
         <section className={css.section}>
             {data.preguntas.map((item, indice) => (
-                <div key={indice} className={css.contenedor}>
-                    <button className={css.pregunta} onClick={() => handleClick(indice)}>
+                <button 
+                    key={indice} 
+                    onClick={() => handleClick(indice)} 
+                    className={css.contenedor}
+                >
+                    <div className={css.pregunta} >
                         {item.pregunta}
-                    </button>
-                    <p className={`${abierto === indice ? css.respuesta : "hidden"}`}>
-                        {item.respuesta}
-                    </p>
-                </div>
+                    </div>
+                    <div className={`${abierto === indice ? css.contRespuesta : "hidden"}`}>
+                        <p className={css.respuesta}>{item.respuesta}</p>
+                    </div>
+                </button>
             ))}
         </section>
     );
