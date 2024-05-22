@@ -107,7 +107,7 @@ const Departamentos = () => {
       </div>
       
     </section>
-    <div className="w-screen h-[150px] md:h-[250px] bg-light">
+    <div id="faq" className="w-screen h-[150px] md:h-[250px] bg-light">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#74634c" fillOpacity="1" d="M0,64L1440,128L1440,0L0,0Z"></path>
         </svg>

@@ -5,7 +5,10 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     const  handleClick = () => {
         setOpen(!open);
-        console.log(open);
+    }
+
+    const handleOption = () => {
+        setOpen(false);
     }
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -42,20 +45,18 @@ const Navbar = () => {
 
             {/* menu lg */}
             <nav className={`${open ? "hidden" : css.contNav} `}>
-                <a className={`${css.link} ${css.home}`} href="#hero">Home</a>
-                <a className={css.link} href="#about">Sobre Nosotros</a>
-                <a className={css.link} href="#deptos">Departamentos</a>
-                <a className={css.link} href="">Servicio</a>
-                <a className={css.link} href="">Contacto</a>
+                <a onClick={handleOption} className={`${css.link} ${css.home}`} href="#hero">Home</a>
+                <a onClick={handleOption} className={css.link} href="#about">Sobre Nosotros</a>
+                <a onClick={handleOption} className={css.link} href="#deptos">Departamentos</a>
+                <a onClick={handleOption} className={css.link} href="#faq">F.A.Q</a>
             </nav>
             
             {/* menu hamburguesa */}
             <nav className={`${open ? css.openNav : "hidden"}`}>
-                <a className={`${css.link} ${css.home}`} href="#hero">Home</a>
-                <a className={css.link} href="#about">Sobre Nosotros</a>
-                <a className={css.link} href="#deptos">Departamentos</a>
-                <a className={css.link} href="">Servicio</a>
-                <a className={css.link} href=""></a>
+                <a onClick={handleOption} className={`${css.link} ${css.home}`} href="#hero">Home</a>
+                <a onClick={handleOption} className={css.link} href="#about">Sobre Nosotros</a>
+                <a onClick={handleOption} className={css.link} href="#deptos">Departamentos</a>
+                <a onClick={handleOption} className={css.link} href="#faq">F.A.Q</a>
             </nav>
              {/* boton hamburgesa */}
              <button onClick={handleClick} className={`${open ? css.openButton :  css.close}`}>

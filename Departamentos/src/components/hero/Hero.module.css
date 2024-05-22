@@ -10,7 +10,8 @@
     @apply 
     object-cover
     object-[-100px]
-    md:object-center 
+    md:object-left-top
+    lg:object-center 
     absolute 
     w-screen h-screen 
     after:content-[''] 
