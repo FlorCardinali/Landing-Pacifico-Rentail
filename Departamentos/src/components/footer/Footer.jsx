@@ -3,8 +3,8 @@ import css from "./Footer.module.css"
 const Footer = () => {
     return ( 
     <>
-        <div className="w-screen md:max-h-[200px] bg-light">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#74634c" fillOpacity="1" d="M0,96L1440,32L1440,320L0,320Z"></path></svg>
+        <div className="w-screen md:max-h-[250px] bg-light z-20 ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180"><path fill="#74634c" fillOpacity="1" d="M0,96L1440,32L1440,320L0,320Z"></path></svg>
         </div>
         
         <footer className={css.footer}>
