@@ -4,8 +4,8 @@ const Hero = () => {
     return ( 
     <section id="hero" className={styles.section}>
           
-        <div className={styles.img}>
-        </div>
+        <img className={styles.img} src="./H.webp">
+        </img>
         
         <div className={styles.textContainer}>
                 <div>
