@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .section {
-  @apply px-5 py-24 w-screen bg-light;
+
+  @apply pt-24 w-screen flex flex-col gap-12;
 }
 .textContainer {
   font-family: Laila, Arial, Helvetica, sans-serif;
-
-  @apply xl:w-1/2 lg:w-3/4 w-full mx-auto text-center;
+  @apply px-5 xl:w-1/2 lg:w-3/4 w-full mx-auto text-center;
 }
 .p {
   @apply leading-7 text-lg;
