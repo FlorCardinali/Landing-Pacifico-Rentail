@@ -29,7 +29,7 @@ const Carrucel = ({ images, estilos }) => {
         <div className={`${css.generalContainer} ${estilos}`}>
             <button
                 className={`${css.btn} ${css.left}`}
-                onClick={() => handleScroll(-300)}
+                onClick={() => handleScroll(-100)}
                 disabled={isAtStart}
             >
                 <svg
@@ -52,7 +52,7 @@ const Carrucel = ({ images, estilos }) => {
 
             <button
                 className={`${css.btn} ${css.right}`}
-                onClick={() => handleScroll(300)}
+                onClick={() => handleScroll(100)}
                 disabled={isAtEnd}
             >
                 <svg
