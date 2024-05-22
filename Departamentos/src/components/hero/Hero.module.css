@@ -20,14 +20,21 @@
 }
 
 .textContainer {
-    @apply md:w-4/5 flex h-screen md:h-auto flex-col md:gap-10 gap-8 items-center md:items-start justify-center text-center md:text-left translate-y-20 md:translate-y-10;
+    @apply 
+    md:w-4/5 
+    flex 
+    flex-col  
+    items-center md:items-start 
+    justify-center md:justify-start 
+    text-center md:text-left z-10
+    gap-5;
 }
 
 .h1 {
     @apply font-[Laila] text-6xl md:text-[5em] font-bold text-gray-300 ;
 }
 .subtitle {
-    @apply text-light font-[Laila] font-semibold text-xl  lg:w-full w-72 -translate-y-4 pl-2;
+    @apply text-light font-[Laila] pt-5 font-semibold text-xl  lg:w-full w-[80%] -translate-y-4 pl-2;
 }
 
 .buttonsContainer {
