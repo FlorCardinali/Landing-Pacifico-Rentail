@@ -7,7 +7,7 @@
     md:max-h-[300px] 
     max-h-[500px]
     w-screen
-    bg-[#655443] 
+    bg-[#74634c] 
     flex flex-col 
     justify-end
 }
@@ -35,7 +35,7 @@
                 brightness-75 font-extrabold font-[Laila] text-xl
             }
             .li{
-                @apply ml-5 pt-1 text-[#b6ab8e] font-[Laila]
+                @apply ml-5 pt-1 text-[#e7e5da] font-[Laila]
             }
         .logo{
             @apply
@@ -53,7 +53,7 @@
 
     .barra{
         @apply 
-        bg-[#4c3f37]
+        bg-[#56473d]
         h-[5vh]
         flex
         justify-between
@@ -61,7 +61,7 @@
         px-10
     }
         .programador {
-            @apply text-[#b6ab8e] text-sm
+            @apply text-[#e7e5da] text-sm
         }
         .contenedorRedes{
             @apply flex gap-3

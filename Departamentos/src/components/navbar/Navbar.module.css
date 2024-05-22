@@ -6,7 +6,7 @@
     max-width: 100vw;
     position: fixed;
     animation: all 2.5s;
-    @apply flex justify-between p-2 py-5 z-50;
+    @apply flex justify-between p-1 z-50;
 }
 .link {
     min-width: 6rem;
@@ -14,7 +14,7 @@
 }
 
 .marca {
-    @apply text-white/75 ml-5 basis-2 self-center text-2xl font-bold flex gap-5 min-w-[250px] z-20;
+    @apply text-white/75 ml-5 basis-2 self-center text-xl font-bold flex gap-5 min-w-[250px] z-20;
 }
 
 .home {
@@ -27,7 +27,14 @@
     align-items: center;
     height: 30px;
     gap: 2rem;
-    @apply px-10 text-right text-light basis-1 font-semibold text-lg grow lg:flex hidden relative;
+    @apply 
+    px-10 
+    text-right 
+    text-light 
+    basis-1 
+    font-semibold 
+    text-lg grow 
+    lg:flex hidden relative;
 }
 
 .openNav {

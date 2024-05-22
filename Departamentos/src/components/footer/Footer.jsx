@@ -4,14 +4,14 @@ const Footer = () => {
     return ( 
     <>
         <div className="w-screen md:max-h-[200px] bg-light">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#655443" fillOpacity="1" d="M0,96L1440,32L1440,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#74634c" fillOpacity="1" d="M0,96L1440,32L1440,320L0,320Z"></path></svg>
         </div>
         
         <footer className={css.footer}>
             <div className={css.contenedorSuperior}>
                 <div className={css.logo}>
                         <h3 className={css.marca}>Pacific Rentail</h3>
-                        <span className="pl-2 font-[Laila] text-sm text-[#b6ab8e]">Bahia Blanca</span>
+                        <span className="pl-2 font-[Laila] text-sm text-[#e7e5da]">Bahia Blanca</span>
                 </div>
                 <div className={css.uls}>
                     <div className="flex flex-col">   
