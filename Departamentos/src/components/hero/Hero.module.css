@@ -24,10 +24,10 @@
 }
 
 .h1 {
-    @apply font-[Laila] text-6xl md:text-[5em] font-bold text-gray-300 drop-shadow-lg ;
+    @apply font-[Laila] text-6xl md:text-[5em] font-bold text-gray-300 ;
 }
 .subtitle {
-    @apply text-light font-[Laila] font-semibold text-xl drop-shadow-lg lg:w-full w-72 -translate-y-4 pl-2;
+    @apply text-light font-[Laila] font-semibold text-xl  lg:w-full w-72 -translate-y-4 pl-2;
 }
 
 .buttonsContainer {
