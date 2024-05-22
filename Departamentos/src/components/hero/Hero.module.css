@@ -7,7 +7,7 @@
     @apply w-screen h-screen flex items-center justify-center relative;
 } 
 .img {
-    @apply bg-[url('Departamentos/public/hero.webp')] bg-cover md:bg-center bg-[-6rem] absolute w-screen h-screen after:content-[''] after:w-screen after:h-screen after:absolute after:bg-neutral-800/40 -z-10 after:-z-10;
+    @apply bg-[url('/hero.webp')] bg-cover md:bg-center bg-[-6rem] absolute w-screen h-screen after:content-[''] after:w-screen after:h-screen after:absolute after:bg-neutral-800/40 -z-10 after:-z-10;
 }
 
 .textContainer {
