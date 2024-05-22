@@ -8,21 +8,28 @@
     transition-delay: 1800ms;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE/Edge */
-    @apply flex w-full;
+    @apply flex ;
 
 }
 .generalContainer {
-    height: max-content;
-    @apply flex relative justify-center items-stretch gap-2 text-shadow;
+    @apply flex justify-center items-stretch text-[#d1cbb7]
+    relative;
 }
 
 .img {
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
-    @apply rounded-xl;
+    @apply rounded-md
 }
 .btn {
-    width: 32px;
-    @apply bg-transparent;
+   @apply h-full p-2 w-[0.5em] absolute md:block hidden
+}
+.right{ 
+    border-radius: 0 6px 0 0;
+    @apply right-6
+}
+.left{
+    border-radius: 6px 0 0 0;
+    @apply -left-1
 }

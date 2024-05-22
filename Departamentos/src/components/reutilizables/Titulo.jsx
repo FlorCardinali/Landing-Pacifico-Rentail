@@ -8,7 +8,8 @@ const Titulo = ({ texto, color, colorC }) => {
           first-letter:font-bold   
           first-letter:float-none  
           text-4xl 
-          drop-shadow-md`}
+          drop-shadow-md
+          text-center`}
         style={{ color }}
       >
         <span style={{ color: colorC }}>{texto.charAt(0)}</span>

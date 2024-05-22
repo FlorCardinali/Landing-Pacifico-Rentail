@@ -4,13 +4,16 @@
 
 .section {
     width: 100%;
-    @apply bg-details font-[Laila] space-y-10 lg:space-y-20 flex flex-col items-center;
+    @apply bg-details font-[Laila] space-y-10 lg:space-y-20 flex flex-col items-center justify-center gap-10 md:gap-10;
+}
+.contenedorGeneral{
+    @apply flex flex-col items-center w-[90%]
 }
     .deptoContainer {
         @apply mb-5 bg-gradient-to-l from-[#4c3f37] to-80% lg:to-40% to-details flex flex-col lg:flex-row items-center lg:items-stretch w-11/12 text-light gap-5 rounded-lg drop-shadow-md;
     }
         .carrucel {
-            @apply  w-screen max-h-[450px] lg:-translate-x-10;
+            @apply  lg:w-full max-h-[450px] lg:-translate-x-10;
         }
         .contenedor {
             @apply max-h-[450px] p-7 lg:w-5/6 flex flex-col justify-between ;  
@@ -26,7 +29,7 @@
                 }
                 .descripcion {
                     font-family: Laila, Arial, Helvetica, sans-serif;
-                    @apply pl-4 pr-3 pb-5 max-h-[60%] overflow-auto text-[#d1cbb7];
+                    @apply pl-4 pr-3 pb-5 h-[130px] overflow-auto text-[#d1cbb7];
                 }
             .aside{
                 @apply flex flex-col;

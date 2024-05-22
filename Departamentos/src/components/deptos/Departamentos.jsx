@@ -13,7 +13,8 @@ const Departamentos = () => {
         color="#d1cbb7"
         colorC="#2b221d" 
       />
-      {depas.map((depto, index) => (
+      <div className={css.contenedor}>
+        {depas.map((depto, index) => (
         <div key={Math.random()} className={css.deptoContainer}>
           <Carrucel estilos={css.carrucel} images={depto.fotos}></Carrucel>
           <div className={css.contenedor}>
@@ -100,7 +101,9 @@ const Departamentos = () => {
 
           </div>
         </div>
-      ))}
+        ))}
+      </div>
+      
     </section>
     <div className="w-screen h-[250px] bg-light">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
