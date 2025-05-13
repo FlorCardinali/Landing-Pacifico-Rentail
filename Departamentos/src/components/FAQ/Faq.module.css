@@ -51,6 +51,7 @@
                 animate-fade-down animate-once animate-duration-300 animate-ease-in 
                 text-left
                 text-[#2b221d] 
-                font-semibold
+                text-xl 
+                font-bold
                 pl-5;
             }
