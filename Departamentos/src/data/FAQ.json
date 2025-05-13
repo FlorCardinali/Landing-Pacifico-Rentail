@@ -2,27 +2,33 @@
     "preguntas" : [
         {
             "pregunta":
-            "¿Cual es la hora de ingreso?",
+            "¿Cual es la hora de ingreso y egreso?",
             "respuesta" : 
-            "27HS."
+            "El horario de ingreso es a partir de las 14:00hs hasta las 21:00hs. El horario de egreso es desde las 8:00hs hasta las 12:00hs."
         },
         {
             "pregunta":
-            "¿De que color es tu perro?",
+            "¿Se permiten mascotas?",
             "respuesta" : 
-            "Violeta, aunque a veces se pone verde."
+            "Si, se permiten mascotas pequeñas unicamente."
         },
         {
             "pregunta":
-            "¿Puedo escribir a las 00:49hs?",
+            "¿Cual es la forma de pago?",
             "respuesta" : 
-            "Si, no sabes lo feliz que me hace que me despierten a esa hora. Es mas, si escribis a esa hora te hacemos un 70% de descuento."
+            "Se aceptan transferencias desde billeteras virtuales o bancaria y efectivo."
         },
         {
             "pregunta":
-            "¿Si tengo tres patos y uno lo hago a la olla, cuantas vacas me quedan?",
+            "¿Que encontrará en el departamento?",
             "respuesta" : 
-            "Teniendo en cuenta la teoria de la relatividad y la no destruccion de la materia, podemos asegurar con absoluta certeza que usted posee 15 conejos y 4 lagartijas. Tambien podemos deducir que el elefante que tiene en su olla pesa aproximadamente 5 gramos. Y por consiguiente, la cena alcansa para 45 personas."
+            "Se provee ropa de cama, toalla y toallón y bajilla completa"
+        },
+        {
+            "pregunta":
+            "¿Que necesito para reservar?",
+            "respuesta" : 
+            "Se reserva con seña con un máximo de 20 días de anticipación, en casos de estadías prolongadas 30 días de anticipación. Se solicita DNI. Consultar tarifas actuales"
         }
     ]
 }
